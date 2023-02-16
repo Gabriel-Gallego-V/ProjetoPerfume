@@ -81,7 +81,7 @@ body {
 @media screen and (min-width: 871px) {
   .MainCont {
     flex-direction: row;
-    max-height: 28.75em;
+    max-height: 29.75em;
     max-width: 37.5em;
   }
   .ImageMob {
