@@ -23,6 +23,8 @@ Usuários devem:
 
 ### Screenshot
 
+![image](https://user-images.githubusercontent.com/90656961/219376793-9786f0dc-82ef-408d-a206-802c29d536af.png)
+
 ### Links
 
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
