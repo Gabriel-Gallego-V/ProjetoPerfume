@@ -27,12 +27,12 @@ body {
 .MainCont {
   display: flex;
   background-color: var(--White);
-  border-radius: 10px;
+  border-radius: 0.625em;
 }
 #deco {
   /*Obrigado ao Gabriel Teixeira da Silva pela dica de transform/spacing*/
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 0.1875em;
   /*Obrigado ao Gabriel Teixeira da Silva pela dica de transform/spacing*/
 }
 .Desc p {
@@ -46,13 +46,13 @@ body {
   color: var(black);
 }
 .Par {
-  font-size: 17px;
+  font-size: 1.0625em;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: var(--DarkGrayishBlue);
 }
 .PriceRange {
-  margin: 20px 0;
+  margin: 1em 0;
   display: flex;
   align-items: center;
 }
@@ -67,7 +67,7 @@ body {
   text-decoration: line-through;
 }
 .Cart {
-  border-radius: 5px;
+  border-radius: 0.3125em;
   border-style: none;
   color: var(--White);
   background-color: var(--DarkCyan);
@@ -81,89 +81,79 @@ body {
 @media screen and (min-width: 871px) {
   .MainCont {
     flex-direction: row;
-    max-height: 460px;
-    max-width: 600px;
-    min-width: 600px;
-    min-height: 460px;
+    max-height: 28.75em;
+    max-width: 37.5em;
   }
   .ImageMob {
     display: none;
   }
   .ImagePC img {
-    height: 460px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    height: 28.75em;
+    border-top-left-radius: 0.625em;
+    border-bottom-left-radius: 0.625em;
   }
   .Desc {
     margin: 2% 3%;
   }
   .Desc > p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .Title {
-    line-height: 40px;
-    font-size: 45px;
-    margin: 20px 9% 20px 1%;
+    line-height: 1em;
+    font-size: 2.813rem;
+    margin: 0.5em 9% 0.5em 1%;
   }
   .Par {
-    font-size: 17px;
-    line-height: 25px;
+    font-size: 1.063rem;
+    line-height: 1.5625em;
     margin-right: 7%;
   }
   .CurrPr {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .Cart {
-    font-size: 15px;
-    height: 50px;
+    font-size: 0.9375em;
+    height: 3.125em;
   }
 }
 
 @media screen and (max-width: 870px) {
   .MainCont {
-    /*Organization*/
-    display: flex;
     flex-direction: column;
-    max-height: 400px;
-    max-width: 250px;
-    min-width: 250px;
-    min-height: 480px;
-
-    /*Background/ Border*/
-    background-color: var(--White);
-    border-radius: 10px;
+    max-height: 30em;
+    max-width: 15.625em;
   }
   .ImagePC {
     display: none;
   }
   .ImageMob img {
-    width: 250px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    width: 15.625em;
+    border-top-right-radius: 0.625em;
+    border-top-left-radius: 0.625em;
   }
   .Desc {
     margin: 3% 6%;
   }
   .Desc > p {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
   .Title {
-    line-height: 30px;
-    font-size: 30px;
-    margin: 10px 0;
+    line-height: 1em;
+    font-size: 1.875rem;
+    margin: 0.5em 0;
   }
   .Par {
-    line-height: 17px;
+    line-height: 1.5em;
     margin-right: 5%;
   }
   .CurrPr {
-    font-size: 30px;
+    font-size: 1.875em;
   }
   .LastPrr {
-    font-size: 13px;
+    font-size: 0.8125em;
   }
   .Cart {
-    font-size: 13px;
-    height: 40px;
+    font-size: 0.8125em;
+    height: 2.5em;
   }
 }
