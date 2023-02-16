@@ -120,7 +120,7 @@ body {
 @media screen and (max-width: 870px) {
   .MainCont {
     flex-direction: column;
-    max-height: 30em;
+    max-height: 33em;
     max-width: 15.625em;
   }
   .ImagePC {
