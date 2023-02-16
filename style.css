@@ -81,26 +81,26 @@ body {
 @media screen and (min-width: 871px) {
   .MainCont {
     flex-direction: row;
-    max-height: 28.75em;
+    max-height: 28em;
     max-width: 37.5em;
   }
   .ImageMob {
     display: none;
   }
   .ImagePC img {
-    height: 28.75em;
+    height: 28em;
     border-top-left-radius: 0.625em;
     border-bottom-left-radius: 0.625em;
   }
   .Desc {
-    margin: 2% 3%;
+    margin: 2% 4%;
   }
   .Desc > p {
     font-size: 0.875rem;
   }
   .Title {
     line-height: 1em;
-    font-size: 2.813rem;
+    font-size: 2.5rem;
     margin: 0.5em 9% 0.5em 1%;
   }
   .Par {
