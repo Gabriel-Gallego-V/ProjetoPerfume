@@ -16,14 +16,24 @@
 }
 body {
   width: 100vw;
+  /*Thx for Hassia Issah for the Vertical center tip*/
+  min-height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+  /*Thx for Hassia Issah for the Vertical center tip*/
   background-color: var(--Cream);
 }
 .MainCont {
   display: flex;
   background-color: var(--White);
   border-radius: 10px;
+}
+#deco {
+  /*Obrigado ao Gabriel Teixeira da Silva pela dica de transform/spacing*/
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  /*Obrigado ao Gabriel Teixeira da Silva pela dica de transform/spacing*/
 }
 .Desc p {
   font-family: "Montserrat", sans-serif;
@@ -71,17 +81,16 @@ body {
 @media screen and (min-width: 871px) {
   .MainCont {
     flex-direction: row;
-    max-height: 480px;
+    max-height: 460px;
     max-width: 600px;
     min-width: 600px;
-    min-height: 480px;
-    margin: 10%;
+    min-height: 460px;
   }
   .ImageMob {
     display: none;
   }
   .ImagePC img {
-    height: 480px;
+    height: 460px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
@@ -115,11 +124,10 @@ body {
     /*Organization*/
     display: flex;
     flex-direction: column;
-    max-height: 350px;
+    max-height: 400px;
     max-width: 250px;
     min-width: 250px;
-    min-height: 500px;
-    margin: 10% 0;
+    min-height: 480px;
 
     /*Background/ Border*/
     background-color: var(--White);
